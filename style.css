@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px ;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.center{
+    margin: 0 auto;
+    display: block;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.banner{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 800px;
+}
+
+.banner-img{
+    margin: 30px auto;
+    display: block;
+}
+
+.product{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    max-width: 600px
+}
+
+.product-image{
+    float: left;
+    margin: 10px 10px;
+    
+}
+
+.product-table{
+    margin: 10px auto;
+    width: 80%;
+}
+
+/*form.html*/
+.biodata{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 400px;
+}
+
+.pesanan{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 800px;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: lighter;
+    font-size: 80px;
+}
+
+h2{
+    font-family: 'Space Mono', monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    
+}
+
+h3, p, table{
+    font-family: 'Space Mono', monospace;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1 h2 h3 p{
+    margin-bottom: 5px;
+}
+
+/*form.html*/
+form, input{
+    font-family: 'Space Mono', monospace;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.biodata span{
+    margin: 0 120px;
+    display: inline;
+    text-align: center;
+}
+
+.pesanan span{
+    margin: 0 300px;
+    display: inline;
+    text-align: center;
+}
+
